@@ -7,8 +7,8 @@
 ### 💪 Master Data Structures & Algorithms | One Problem at a Time
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Start Date](https://img.shields.io/badge/Start_Date-Jan_1_2026-FF6B6B?style=for-the-badge)
-![Days](https://img.shields.io/badge/Days_Completed-1%2F160-00C853?style=for-the-badge)
+![Start Date](https://img.shields.io/badge/Start_Date-Dec_30_2024-FF6B6B?style=for-the-badge)
+![Days](https://img.shields.io/badge/Days_Completed-4%2F160-00C853?style=for-the-badge)
 
 </div>
 
@@ -18,7 +18,7 @@
 
 Welcome to my **160 Days of Problem Solving Challenge** on GeeksforGeeks! 🎯
 
-Starting **January 1, 2026**, I'll be solving one problem every single day to master:
+Starting **December 30, 2024**, I'll be solving one problem every single day to master:
 
 <table>
 <tr>
@@ -46,18 +46,34 @@ This repository documents my daily progress, solutions, and learnings throughout
 ```
 📦 GfG-160-Days/
 │
-├── 📁 DAY 001 - Array Basics/
-│   ├── 📄 Second Largest Element.py
-│   ├── 📝 Problem.md
-│   └── 💡 Approach.md
+├── 📁 DAY 001 - Second Largest/
+│   └── ✅ Second Largest.py
 │
-├── 📁 DAY 002 - Array Operations/
+├── 📁 DAY 002 - Move All Zeroes to End/
+│   └── ✅ Move All Zeroes to End.py
+│
+├── 📁 DAY 003 - Reverse an Array/
+│   └── ✅ Reverse an Array.py
+│
+├── 📁 DAY 004 - Rotate Array/
+│   └── ✅ Rotate Array.py
+│
+├── 📁 DAY 005 - Next Permutation/
 │   └── 🔜 Coming Soon...
 │
-├── 📁 DAY 003 - String Manipulation/
+├── 📁 DAY 006 - Majority Element II/
 │   └── 🔜 Coming Soon...
 │
-├── 📁 DAY 004 - Searching/
+├── 📁 DAY 007 - Stock Buy and Sell/
+│   └── 🔜 Coming Soon...
+│
+├── 📁 DAY 008 - Maximize Profit/
+│   └── 🔜 Coming Soon...
+│
+├── 📁 DAY 009 - Minimize the Heights/
+│   └── 🔜 Coming Soon...
+│
+├── 📁 DAY 010 - Kadane's Algorithm/
 │   └── 🔜 Coming Soon...
 │
 └── 📁 DAY XXX/
@@ -80,17 +96,17 @@ This repository documents my daily progress, solutions, and learnings throughout
 
 | 🎯 Status        | 📊 Metric  | 🔢 Count  |
 | ---------------- | ---------- | --------- |
-| ✅ **Completed** | Days Done  | **1**     |
-| ⏳ **Remaining** | Days Left  | **159**   |
-| 📈 **Progress**  | Completion | **0.63%** |
+| ✅ **Completed** | Days Done  | **4**     |
+| ⏳ **Remaining** | Days Left  | **156**   |
+| 📈 **Progress**  | Completion | **2.50%** |
 
 ```
-Progress: [█░░░░░░░░░░░░░░░░░░░] 0.63%
+Progress: [█░░░░░░░░░░░░░░░░░░░] 2.50%
 ```
 
-**🗓️ Start Date:** January 1, 2026  
-**🏆 Target Date:** June 9, 2026  
-**🔥 Current Streak:** 1 Day
+**🗓️ Start Date:** December 30, 2024  
+**🏆 Target Date:** June 7, 2025  
+**🔥 Current Streak:** 4 Days
 
 </div>
 
