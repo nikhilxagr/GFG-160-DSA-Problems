@@ -24,43 +24,9 @@ Explanation:
   
 class Solution:
     def addBinary(self, a, b):
-        # Start from the last characters
-        i = len(a) - 1
-        j = len(b) - 1
+        sum_value = int(a, 2) + int(b, 2)
+        return bin(sum_value)[2:]
 
-        carry = 0
-        result = []
 
-        # Loop while there are digits left or a carry
-        while i >= 0 or j >= 0 or carry == 1:
-
-            # Get digit from a
-            if i >= 0:
-                x = int(a[i])
-            else:
-                x = 0
-
-            # Get digit from b
-            if j >= 0:
-                y = int(b[j])
-            else:
-                y = 0
-
-            # Add digits and carry
-            total = x + y + carry
-
-            # Binary digit result
-            digit = total % 2
-            result.append(str(digit))
-
-            # Update carry
-            carry = total // 2
-
-            # Move pointers
-            i -= 1
-            j -= 1
-
-        # Reverse result and join into string
-        result.reverse()
-        return "".join(result)
- 
+obj = Solution()   
+print(obj.addBinary("1101", "111"))  # Output: "10100"
