@@ -19,31 +19,17 @@ class Solution:
     def segregateElements(self, arr):
         pos = []
         neg = []
-        ans = []
 
         for num in arr:
-            
             if num >= 0:
                 pos.append(num)
             else:
                 neg.append(num)
                 
-        result = pos + neg
-        return result
-
-
-
-# arr = [1, -1, 3, 2, -7, -5, 11, 6]
-# pos = []
-# neg = []
-# ans = []
-
-# for num in arr:
-    
-#     if num >= 0:
-#         pos.append(num)
-#     else:
-#         neg.append(num)
+        arr[:] = pos + neg
         
-# result = pos + neg
-# print(result)
+# Example usage
+# arr = [1, -1, 3, 2, -7, -5, 11, 6]
+# sol = Solution()
+# sol.segregateElements(arr)
+# print(arr)
