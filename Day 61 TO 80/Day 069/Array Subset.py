@@ -14,28 +14,28 @@
 # Output: false
 # Explanation: b[] is not a subset of a[]
 
-#Solution 
-
+#Solution - Sorting + Two Pointer
 
 class Solution:
     def isSubset(self, a, b):
         a.sort()
         b.sort()
-
-        i = j = 0
+        
+        i = 0  
+        j = 0
+        
         while i < len(a) and j < len(b):
-
             if a[i] == b[j]:
                 i += 1
                 j += 1
-
             elif a[i] < b[j]:
                 i += 1
-
             else:
                 return False
-        else:
-            return True
+        
+        return j == len(b)
+
+# Another approach
 
 # a = [11, 7, 1, 13, 21, 3, 7, 3]
 # b = [11, 3, 7, 1, 7]
