@@ -17,25 +17,25 @@
 # equal to 10.
 
 class Solution:
-    def countDivisors(self, n):
-        count = 0
-        
-        for i in range(1, n + 1):
-            if n % i == 0:
-                count += 1
-                
-        return count
-    
+    def isPrime(self, x):
+        if x < 2:
+            return False
+        for i in range(2, int(x**0.5) + 1):
+            if x % i == 0:
+                return False
+        return True
+
     def threeDivisors(self, query, q):
         ans = []
         
         for n in query:
-            total = 0
+            count = 0
+            limit = int(n ** 0.5)
             
-            for i in range(1, n + 1):
-                if self.countDivisors(i) == 3:
-                    total += 1
+            for i in range(2, limit + 1):
+                if self.isPrime(i):
+                    count += 1
             
-            ans.append(total)
+            ans.append(count)
         
         return ans
