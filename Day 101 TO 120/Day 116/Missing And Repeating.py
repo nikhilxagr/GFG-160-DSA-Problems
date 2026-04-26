@@ -17,14 +17,20 @@
 
 class Solution:
     def findTwoElement(self, arr):
+        
         n = len(arr)
         total_sum = n * (n + 1) // 2
         total_sq_sum = n * (n + 1) * (2 * n + 1) // 6
+        
         arr_sum = sum(arr)
         arr_sq_sum = sum(x * x for x in arr)
         diff = arr_sum - total_sum
+        
         sq_diff = arr_sq_sum - total_sq_sum
         sum_xy = sq_diff // diff
+        
         repeating = (diff + sum_xy) // 2
+        
         missing = repeating - diff
+        
         return [repeating, missing]
