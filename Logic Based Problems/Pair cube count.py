@@ -13,12 +13,10 @@
 # Explanation: Thereis only one solution: (a=3, b=0). 
 
 # ALGORITHM:
- """Return number of pairs (a>=1, b>=0) with a^3 + b^3 == n.
-
-    Simple and readable: compute integer cube-root bound, make a set
-    of cubes, then check for each a whether the remainder is a cube.
-    O(n^(1/3)) time and space.
-    """
+# Return number of pairs (a>=1, b>=0) with a^3 + b^3 == n.
+# Simple and readable: compute integer cube-root bound, make a set
+# of cubes, then check for each a whether the remainder is a cube.
+# O(n^(1/3)) time and space.
 
 
 
