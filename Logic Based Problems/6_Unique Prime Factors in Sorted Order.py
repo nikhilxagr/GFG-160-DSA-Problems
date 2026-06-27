@@ -32,4 +32,4 @@ class Solution:
         
         return unique_factors
         
-Approach - in this approach , we use factors that is used 
+# Approach - in this approach , we use factors that is used 
